@@ -1,0 +1,43 @@
+#faqs
+    background:
+        //color: lightblue
+        image: url(https://unsplash.it/2400/1600?random)
+        size: cover
+        position: center
+        attachment: fixed
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+    align-content: center
+
+    @media #{$medium}
+        justify-content: center
+
+    .faqs
+        margin: 1rem 15%
+        max-width: 20rem
+        transition: all .25s ease-in-out
+
+        @media #{$large}
+            margin: 1rem
+
+
+        .question
+            color: $LightText
+            font-weight: bold
+
+            span
+                display: block
+                padding: 1rem
+            .q
+                border:
+                    bottom: 1px solid $LightText
+                cursor: pointer
+                padding: 1rem 1rem 1rem .5rem
+
+            .answer
+                //background: lightblue
+                font-weight: 300
+                overflow: hidden
+
+

@@ -1,0 +1,44 @@
+NOTES
+===========================
+Registrar:
+username:
+password:
+
+
+DNS:
+username:
+password:
+
+
+email:
+username:
+password:
+
+Current IP address (A):
+nameservers:
+MX Records:
+
+
+
+========================
+WORDPRESS/CMS LOGIN INFO
+========================
+
+Login URL:
+Admin:
+Password:
+
+FTP Information:
+Hotname:
+username:
+password:
+port:
+
+
+========================
+Wordpress Database Info:
+========================
+PHPMyAdmin:
+DB Name:
+User:
+PAssword:

@@ -1,0 +1,30 @@
+#order
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
+
+    h2
+        flex: 100%
+        text-align: center
+
+    .order-description
+        //flex: 50%
+        margin: 0 2rem
+        max-width: 24rem
+        p
+            margin: 0 0 1.5rem
+            &:last-child
+                margin: 0
+
+        @media #{$large-medium}
+            margin: 0
+            padding: 0 1rem
+            p
+                &:last-child
+                    margin: 0 0 1.5rem
+
+    form
+        max-width: 24rem
+        @media #{$small}
+            margin: 0 0 1rem
+            padding: 0 1rem

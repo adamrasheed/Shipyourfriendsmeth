@@ -1,0 +1,97 @@
+/* Header
+header
+    background: $SecondaryDark
+
+#primary-nav
+    display: flex
+    justify-content: space-between
+    flex-flow: row wrap
+    align-items: center
+    padding: 3vh
+
+    @media #{$large-medium}
+        padding: 3vh 0 0
+
+
+    /*Site Logo
+    #site-id
+        h1
+            color: white
+            flex: 1
+            font-size: 2em
+            line-height: 1
+            margin: 0
+            padding: 0
+            text-align: center
+            transition: all .25s ease-in-out
+
+            @media #{$large-medium}
+                font-size: 1.5rem
+                padding: 0 1rem 3vh
+
+            @media #{$small}
+                font-size: 1rem
+
+    /*Mobile Menu
+    #navicon
+        color: white
+        cursor: pointer
+        display: none
+        font-size: 2.5rem
+        line-height: 1
+        margin: 0 0.5rem
+
+        @media #{$large-medium}
+            display: block
+            padding: 0 1rem 3vh
+
+        @media #{$small}
+            font-size: 2rem
+
+
+    /*Navigation
+    .menu
+        ul
+
+            li
+                display: inline-block
+                margin-left: 1rem
+                line-height: 1
+                padding: 0
+                transition: all .25s ease-in-out
+
+                a
+                    text-decoration: none
+                    color: $OffWhite
+                    transition: all .25s ease-in-out
+
+                    &:hover
+                        color: $ThirdColor
+                        border: none
+                        transition: all .25s ease-in-out
+
+                i
+                    color: $OffWhite
+                    height: 1rem
+                    width: auto
+                    line-height: .5
+                    transition: all .25s ease-in-out
+
+                    &:hover
+                        color: $ThirdColor
+                        transition: all .25s ease-in-out
+
+        @media #{$large-medium}
+            display: none
+            flex: 100%
+            ul
+                li
+                    display: block
+                    margin: 1.5rem
+                    text-align: right
+                    a
+                        flex: 100%
+                        display: block
+                    i
+                        flex: 0
+                        display: none

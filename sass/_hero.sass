@@ -1,0 +1,70 @@
+/*  Hero
+
+.hero
+    background:
+        image: url(https://unsplash.it/2400/1600?random)
+        size: cover
+        position: center
+        attachment: fixed
+
+    transition: all .25s ease-in-out
+    height: 90vh
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-content: center
+
+    @media #{$large-medium}
+        justify-content: flex-start
+
+    @media #{$medium}
+        height: 60vh
+
+    @media #{$small}
+        height: 88vh
+
+    h1
+        display: inline-block
+        margin: -2rem 0 0
+        opacity: 0.9
+        font:
+            size: 6rem
+            weight: 300
+        line-height: 1.1
+        padding: 0 10%
+        transition: all .25s ease-in-out
+
+        @media #{$large}
+            font:
+                size: 5rem
+                weight: 300
+            line-height: 1.24
+
+        @media #{$large-medium}
+            margin: 3rem 0 0
+
+        @media #{$medium}
+            font:
+                size: 4rem
+                weight: 300
+            line-height: 1.33
+
+        @media #{$small}
+            margin: 20% 0 0
+            font-size: 3rem
+            weight: 300
+            line-height: 1.2
+
+    .cta
+        align-self: flex-start
+        margin: 3rem 0 0 10%
+        transition: all .25s ease-in-out
+        width: 16rem
+
+        @media #{$medium}
+            align-self: center
+            margin: 2rem 0 0
+
+        @media #{$small}
+            margin: 5% 0 0
+            width: 84%
